@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Universal"
+title = "sendis.org"
 theme = "hugo-universal-theme"
 #themesDir = "../.."
 languageCode = "en-us"
@@ -36,42 +36,42 @@ paginate = 10
     weight = 3
 
 # Top bar social links menu
-
-[[menu.topbar]]
-    weight = 1
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fab fa-2x fa-github'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 4
-    name = "Email"
-    url = "mailto:your@email.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
-
-[params]
+# 
+# [[menu.topbar]]
+#     weight = 1
+#     name = "GitHub"
+#     url = "https://github.com/devcows/hugo-universal-theme"
+#     pre = "<i class='fab fa-2x fa-github'></i>"
+# 
+# [[menu.topbar]]
+#     weight = 2
+#     name = "Facebook"
+#     url = "http://facebook.com"
+#     pre = "<i class='fab fa-2x fa-facebook'></i>"
+# 
+# [[menu.topbar]]
+#     weight = 3
+#     name = "Twitter"
+#     url = "http://twitter.com"
+#     pre = "<i class='fab fa-2x fa-twitter'></i>"
+# 
+# [[menu.topbar]]
+#     weight = 4
+#     name = "Email"
+#     url = "mailto:your@email.com"
+#     pre = "<i class='fas fa-2x fa-envelope'></i>"
+# 
+ [params]
     viewMorePostLink = "/blog/"
     author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
+    defaultKeywords = ["devows", "hugo", "go"]     
     mainSections = ["blog"]
     defaultDescription = "Site template made by devcows using hugo"
 
     # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/sharing-default.png"
+    # facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    # twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
+    # default_sharing_image = "img/sharing-default.png"
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
