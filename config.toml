@@ -101,7 +101,7 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "images/sendis.png"
+    logo = "images/sendis_35.png"
     logo_small = "images/sendis_35.png"
     address = """<p><strong>Universal Ltd.</strong>
         <br>13/25 New Avenue
